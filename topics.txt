@@ -1,20 +1,43 @@
-* How to make the best sci fi movie?
-    * Based on book?
-    * Budget
-    * Ratings
 
 * How does budget affect ratings?
     * Highest budgets
     * Highest ratings
     * Highest highest income
     * Across media?
+    * Consumer Ratings
+    * Word Cloud similarities
+        * Is there a connection between top grossing or most popular movies
 
-* Professional-published vs self-published
-    * Movies - indie vs big corporations
-    * Books - Self published vs publishing house
-    * Music - self released vs music industry
+    * Professional-published vs self-published
+        * Movies - indie vs big corporations
+        * Books - Self published vs publishing house
+        * Music - self released vs music industry
+
+    * How to make the best sci fi movie?
+        * Based on book?
+        * Budget
+        * Ratings
+
+    * Economic impact of entertainment industry across media
+        * Correllation with real-world events
+        * Greater impact - truckers or entertainment (Dave thought)
 
 * Sci fi reflecting life
-    * Demographics in sci fi vs general public
+    * Demographics in top 3 sci fi industries vs general public political office (?)
     * Changes after major US events 
-    
+
+* Book popularity from top lists and consumer appreciation
+    * How to mark what SHOULD be there but isn't?
+    * CHECK HISTORY - most downloaded from gutenberg
+
+* SOURCES:
+    * NYT Bestseller lists  
+    * Open Library
+    * OMDB
+    * Google Books
+    * Project Gutenberg
+    * Census data
+    * Spotify
+
+
+
