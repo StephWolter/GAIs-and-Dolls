@@ -6,7 +6,7 @@ This is a data analysis of book publishers using the New York Times (NYT) Books 
 
 1. In Python, make a series of API calls to the NYT Books API, request the responses in json, populate a pandas dataframe, and save the dataframe as a CSV file.
 2. In Python, create an initial visualization of book publishers' performance in terms of their relative representation on NYT bestseller lists. 
-3. In Excel and Tableau, refine the initial visualization by integrating a) historical information, and b) corporate ownership information. 
+3. In Python, Excel and Tableau, refine the initial visualization by integrating a) historical information, and b) corporate ownership information. 
 
 ### Step 1. Retrieving and Storing NYT API Data
 
