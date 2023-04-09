@@ -83,4 +83,26 @@ Using pandas, we call DataFrame.read_csv() to populate a dataframe from 'NYT_Bes
 
 Using Matplotlib's DataFrame.plot() function, we create bar charts for each genre-specific dataframe. Other Matplotlib functions, (e.g., plt.title), and the wrap_labels function are used to label the chart and make aesthetic changes. The plt.savefig() function is used to save the charts as a png file.
 
-### Step 3. Integration of Time-Series and Corporate Ownership Information 
+### Step 3. Integration of Time-Series and Corporate Ownership Information
+ 
+In order to integrate/append publisher name (typically subsidiaries) to their parent company, we initially created a comprehensive list that identifies publishers and imprints to their parent companies. To explore and gauge the effiencies of different programs and programming languages, we employed three methods of data appending on the same data. The first was Power Query in Excel, VLookup in Excel, and lastly Python. All these methods included adding a new conditional column titled 'Parent Group', which based on the value in the 'Publisher' column would give an output of the corresponding parent publishing company. 
+ 
+  ### Inserting a conditional column through Excel Power Query
+  
+  Fairly straightforward, this method only requires retrieving data from our 'NYT_Bestsellers.csv'(our data source), inserting a conditional column with the new name 'Parent Group', and inputting the data using the provided 'else if' options. Once the data is loaded, it immediately populates the relevant cells in the newly created column.
+  
+  ### Filling a column through Excel Visual Basic for Applications (VBA)
+  !!!  
+For this process, VBA If statement is used to determine the output based on the values of a certain cell. A for loop is used to ensure the rule applies throughout the column.
+
+  ### Inserting a conditional column through Pandas Python in Jupyter Notebook
+  
+  Following the tyical imports, including that of the relevant cvs file, we load the file as a dataframe. Using the pandas .map() method, we create a dictionary to set values to append in the new column destination. 
+    
+
+Throughout the data preprocessing, there proved to be no significant difference in the use of either program, the only extensive and tedious work encountered during the data integration process was in establishing a comprehensive list detailing the relationship between the numerous publishers and their corporate owners. This list ("PublishingHouses.xlsx) was necessary in order to create a way to recognize established patterns found in the generated Best Seller lists.
+
+
+#### Data Vizualization
+
+Using excel, python pandas and Tableau, a series of bar graphs, pie charts, and sankey diagrams were created to display trends in the data. This includes higlighting the dominance of the top 5 publishing companies through .value_counts() in python or pivot charting in Excel, and showcasing the minimal changes in the dominance of publishers throughout the years.   
